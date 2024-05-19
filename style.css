@@ -1,0 +1,219 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+   background-color: black;
+}
+.main{
+border: 2px solid black;
+height: 450px;
+width: 550px;
+}
+.hone{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+font-size: 20px;
+}
+.brightness{
+height: 40px;
+}
+.secondmain{
+
+    box-shadow: 1px 1px 10px 10px yellow;
+margin-top: 30px;
+height: 60px;
+background-color: #24283C;
+color: white;
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 5px;
+animation-name: ann;
+animation-duration: 9s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes ann {
+
+    30%{
+        box-shadow: 1px 1px 10px 10px red;   
+    }
+    
+    90%{
+        box-shadow: 1px 1px 10px 10px white;   
+    }
+    }
+.circle{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+display: flex;
+border: 2px solid white;
+height: 20px;
+width: 20px;
+border-radius: 40px;
+margin-left: 20px;
+}
+p{
+color: rgba(255, 255, 255, 0.655);
+}
+.thirdmain{
+border-bottom: 1px solid rgba(255, 255, 255, 0.829);
+height: 60px;
+background-color: #24283C;
+border-radius: 5px;
+display: flex;
+
+align-items: center;
+gap: 20px;
+}
+.fourthmain{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.829);
+    height: 60px;
+    background-color: #24283C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.655);
+
+}
+.left{
+margin-left: 20px;
+}
+.right{
+margin-right: 20px;
+
+}
+span{
+
+    color: blue;
+}
+.secondcircle{
+    overflow: hidden;
+border: 2px solid white;
+height: 20px;
+width: 20px;
+border-radius: 40px;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.thirdcircle{
+    overflow: hidden;
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.fivecolour{
+
+    transition: all ease 0.2s;
+    height: 16px;
+    width: 16px;
+    border-radius: 40px;
+    background-color: red;
+    position: absolute;
+    left: -110%;
+
+}
+.fifthcircle{
+
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.forthirdcolour{
+   
+transition: all ease 0.2s;
+height: 16px;
+width: 16px;
+border-radius: 40px;
+background-color: red;
+position: absolute;
+left: -110%;
+}
+.forforcolour{
+
+    transition: all ease 0.2s;
+    height: 16px;
+    width: 16px;
+    border-radius: 40px;
+    background-color: red;
+    position: absolute;
+    left: -110%;
+    
+}
+.fourthcircle{
+    overflow: hidden;
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+.forcolour{
+
+transition: all ease 0.2s;
+height: 16px;
+width: 16px;
+border-radius: 40px;
+background-color: red;
+position: absolute;
+left: -110%;
+
+}
+h6{
+font-size: 20px;
+color: rgba(255, 255, 255, 0.655);
+}
+.support{
+margin-top: 30px;
+box-shadow: 1px 1px 10px 10px yellow;
+animation-name: sup;
+animation-duration: 9s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes sup {
+
+30%{
+    box-shadow: 1px 1px 10px 10px red;   
+}
+
+90%{
+    box-shadow: 1px 1px 10px 10px white;   
+}
+}
